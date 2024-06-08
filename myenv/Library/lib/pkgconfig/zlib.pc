@@ -1,0 +1,13 @@
+prefix=C:/TUM/Python_LangChain/ChatBot/myenv/Library
+exec_prefix=C:/TUM/Python_LangChain/ChatBot/myenv/Library
+libdir=C:/TUM/Python_LangChain/ChatBot/myenv/Library/lib
+sharedlibdir=C:/TUM/Python_LangChain/ChatBot/myenv/Library/lib
+includedir=C:/TUM/Python_LangChain/ChatBot/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
