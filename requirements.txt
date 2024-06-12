@@ -25,3 +25,5 @@ PyPDF2
 langchain-objectbox
 requests
 chromadb
+numpy
+sentencepiece
