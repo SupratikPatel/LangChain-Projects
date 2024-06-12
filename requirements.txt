@@ -27,3 +27,5 @@ requests
 chromadb
 numpy
 sentencepiece
+langchain_google_genai
+google-cloud-aiplatform>=1.38
