@@ -37,7 +37,7 @@ prompt = ChatPromptTemplate.from_template(
 )
 
 
-## Vector Enbedding and Objectbox Vectorstore db
+# Vector Enbedding and Objectbox Vectorstore db
 
 def vector_embedding():
     if  "vectors" not in st.session_state:
