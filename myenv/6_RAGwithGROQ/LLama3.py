@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-## load the GROQ And OpenAI API KEY 
+# load the GROQ API KEY
 
 groq_api_key=os.getenv('GROQ_API_KEY')
 
