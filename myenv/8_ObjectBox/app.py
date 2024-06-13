@@ -40,7 +40,7 @@ prompt = ChatPromptTemplate.from_template(
 ## Vector Enbedding and Objectbox Vectorstore db
 
 def vector_embedding():
-    if "vectors" not in st.session_state:
+    if  "vectors" not in st.session_state:
         st.session_state.embeddings = OllamaEmbeddings(model="llama3")
         st.session_state.loader = PyPDFDirectoryLoader("./myenv/7_HuggingFace/economicSurvey")  ## Data Ingestion
         st.session_state.docs = st.session_state.loader.load()  ## Documents Loading
