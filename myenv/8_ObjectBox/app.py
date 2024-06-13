@@ -52,7 +52,7 @@ def vector_embedding():
 
 input_prompt = st.text_input("Enter Your Question From Documents")
 
-if st.button("Documents Embedding"):
+if st.button("Create Vector Store"):
     vector_embedding()
     st.write("ObjectBox Database is ready")
 

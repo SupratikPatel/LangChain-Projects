@@ -29,3 +29,5 @@ numpy
 sentencepiece
 langchain_google_genai
 google-cloud-aiplatform>=1.38
+langchain-huggingface
+transformers
