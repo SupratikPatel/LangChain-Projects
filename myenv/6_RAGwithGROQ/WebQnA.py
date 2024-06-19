@@ -19,7 +19,7 @@ groq_api_key=os.environ['GROQ_API_KEY']
 
 if "vector" not in st.session_state:
     st.session_state.embeddings=OllamaEmbeddings(model="llama3")
-    st.session_state.loader=WebBaseLoader("https://de.wikipedia.org/wiki/Dieter_Schwarz_Stiftung")
+    st.session_state.loader=WebBaseLoader("https://de.wikipedia.org/wiki/Technische_Universit%C3%A4t_M%C3%BCnchen")
     st.session_state.docs=st.session_state.loader.load()
 
     st.session_state.text_splitter=RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200)
